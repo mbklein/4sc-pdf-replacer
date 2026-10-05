@@ -1,0 +1,6 @@
+.build/
+.swiftpm/
+build/
+.DS_Store
+# Local sample files (may be copyrighted)
+/*.4sc

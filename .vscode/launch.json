@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:4sc-pdf-replacer}",
+      "name": "Debug replace4sc",
+      "target": "replace4sc",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug replace4sc"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:4sc-pdf-replacer}",
+      "name": "Release replace4sc",
+      "target": "replace4sc",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release replace4sc"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:4sc-pdf-replacer}",
+      "name": "Debug FourScorePDFReplacer",
+      "target": "FourScorePDFReplacer",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug FourScorePDFReplacer"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:4sc-pdf-replacer}",
+      "name": "Release FourScorePDFReplacer",
+      "target": "FourScorePDFReplacer",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release FourScorePDFReplacer"
+    }
+  ]
+}
